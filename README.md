@@ -5,6 +5,14 @@
 
 * Link to live site: 
 
+* To test the application run this command
+ ```python3.6 manage.py test```
+
+* To run the application, run these commands:
+
+        $ chmod +x start.sh
+        $ ./start.sh
+
 ## Description
 This is an application that allows users to use thaere one minute wisely. The users will submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
 
