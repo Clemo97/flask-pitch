@@ -6,7 +6,7 @@
 * Link to live site: 
 
 * To test the application run this command
- ```python3.6 manage.py test```
+ ```python3.8 manage.py test```
 
 * To run the application, run these commands:
 
