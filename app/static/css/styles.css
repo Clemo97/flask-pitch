@@ -1,0 +1,16 @@
+.back{
+    background-color: yellow;
+    background-image: linear-gradient(-20deg, #22c1c3 0%, #fdbb2d 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+.head{
+    font-size: 60px;
+
+}
+
+    
