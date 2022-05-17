@@ -7,16 +7,15 @@
 <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright" rel="stylesheet">
-<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+<link rel="stylesheet" href="{{url_for('static',filename='static/css/styles.css')}}">
 {%endblock%}
 
 <!-- Content block -->
-{%block content%}
+{% block content %}
 
-<body>
-
-    <div class=back>
-        <div class=" text-center " style="font-family: 'Indie Flower', cursive; color: #fff; padding: 55px 25px; ">
+<body style="background-color: yellow;">
+    <div class="container">
+        <div class=" text-center " style="font-family: 'Indie Flower', cursive; color: rgb(42, 33, 33); padding: 55px 25px; ">
             <h1 class="head"><strong>Welcome to the Best pitch</strong></h1>
         </div>
         <hr>
