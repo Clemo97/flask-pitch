@@ -10,7 +10,7 @@ class Config:
     #SQLALCHEMY_DATABASE_URI ='sqlite:///pitch1.db'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
-    email configurations
+
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
