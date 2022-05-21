@@ -6,7 +6,7 @@ class Config:
     '''
     SECRET_KEY = 'clement'
     #SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://clement:clemolumz@localhost/pitch1'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://clement:clemolumz@localhost:5433/pitch1'
     #SQLALCHEMY_DATABASE_URI ='sqlite:///pitch1.db'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
@@ -35,7 +35,7 @@ class TestConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://clement:clemolumz@localhost/pitch1'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://clement:clemolumz@localhost:5433/pitch1'
     #SQLALCHEMY_DATABASE_URI ='sqlite:///pitch1.db'
 
 class DevConfig(Config):
@@ -45,7 +45,7 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://clement:clemolumz@localhost/pitch1'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://clement:clemolumz@localhost:5433/pitch1'
     #SQLALCHEMY_DATABASE_URI ='sqlite:///pitch1.db'
 
     DEBUG = True
