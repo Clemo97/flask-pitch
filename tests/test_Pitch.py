@@ -2,6 +2,7 @@ from app.models import Comment,User,Pitch
 from app import db
 import unittest
 
+#this is test app
 class PitchModelTest(unittest.TestCase):
     def setUp(self):
         self.user_Clemo = User(username = 'Clement',password = 'banana', email = 'james@ms.com')
